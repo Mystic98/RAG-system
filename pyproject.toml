@@ -1,0 +1,36 @@
+[project]
+name = "rag-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12.12"
+dependencies = [
+    "langchain>=1.2.12",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.2.19",
+    "langchain-openai>=1.1.11",
+    "langchain-pymupdf4llm>=0.5.0",
+    "langchain-qdrant>=1.1.0",
+    "langchain-text-splitters>=1.1.1",
+    "langchain-unstructured>=1.0.1",
+    "langgraph>=1.1.2",
+    "langsmith>=0.7.18",
+    "libmagic>=1.0",
+    "numpy>=2.4.3",
+    "pandas>=3.0.1",
+    "pillow>=12.1.1",
+    "pip>=26.0.1",
+    "pymupdf>=1.27.2",
+    "pytesseract>=0.3.13",
+    "python-dotenv>=1.2.2",
+    "qdrant-client>=1.17.1",
+    "torch>=2.10.0",
+    "torchvision>=0.25.0",
+    "unstructured>=0.21.5",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+    "jupyter>=1.1.1",
+]
